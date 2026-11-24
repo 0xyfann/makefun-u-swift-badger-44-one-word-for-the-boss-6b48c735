@@ -1,0 +1,23 @@
+Write a Python (stdlib only) program, main.py, for the make.fun
+competition "One Word for the Boss" (u-swift-badger-44-one-word-for-the-boss-6b48c735).
+
+The program must write exactly ONE word describing a boss to
+/output/entry.txt, honoring the MAKEFUN_OUTPUT_DIR environment variable.
+
+Rules from RULES.txt:
+- The file must be UTF-8 text of 1 to 30 characters, not only whitespace.
+- Exactly one word: no spaces, no phrase, no caption, no explanation.
+- The judge (a comedy editor) weighs, in order: (1) it is a single word
+  a person would actually use about their boss, (2) funny on its own,
+  (3) rings true about a real boss habit, (4) fresh — not the first word
+  anyone would reach for, (5) travels across industries.
+
+Pick an original word that is funny, true, fresh, and universal.
+Avoid the obvious ("micromanager", "bossy", "strict") — they lose on
+freshness. The word I chose: "Unfireable" — the boss who can never be
+fired, no matter what. It is a single word, lands without a caption,
+is true of bosses everywhere, and is fresher than the usual answers.
+
+The program should validate the word against the gate (1–30 chars,
+single token, no surrounding whitespace) before writing it, with no
+trailing newline.
